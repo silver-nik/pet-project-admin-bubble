@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const webpack = require('webpack-stream');
 const sass = require('gulp-sass')(require('sass'));
 
-const dist = "/Users/Nikita Shvetsov/Desktop/o/OpenServer/domains/react-admin/admin"
+const dist = "  " // путь до шаблона pet-project-1C
 
 gulp.task('copy-html', () => {
     return gulp.src('./app/src/index.html')
