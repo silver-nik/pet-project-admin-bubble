@@ -1,0 +1,422 @@
+// dashboard "settings" page
+
+.settings {
+
+    .settings-info {
+        width: 40%;
+    }
+
+    .mount {
+        padding: 10px;
+    }
+
+    .settings-wrapper {
+        margin: 40px 0;
+    }
+
+    .settings-tabs {
+        margin: 0;
+
+        li {
+
+            margin-right: 60px;
+            padding: 20px;
+            font-size: 15px;
+            line-height: 1.2em;
+            display: block;
+            cursor: pointer;
+
+            &.uk-active {
+                
+                background: var(--background-color);
+                border-radius: 10px;
+                transition: background .6s ease;
+
+            }
+
+            a {
+                pointer-events: none;
+                color: var(--text-color);
+                &:hover {
+                    color: var(--text-color);
+                }
+            }
+
+        }
+
+    }
+
+    &__profile-data {
+        .user-data__top {
+            padding: 0 20px;
+            position: relative;
+            justify-content: space-between;
+
+            .user-data__small-info {
+                li {
+                    text-transform: capitalize;
+                }
+            }
+        }
+
+        .user-data__body {
+            margin-top: 20px;
+
+            .personal__wrapper {
+                position: relative;
+                padding: 20px;
+                justify-content: space-between;
+            }
+
+            .main-info {
+                padding: 0 20px;
+                display: flex;
+                flex-wrap: wrap;
+                width: 55%;
+
+                li {
+                    display: flex;
+                    flex-direction: column;
+                    width: 200px;
+                    border-bottom: none;
+                    margin-bottom: 40px;
+                    margin-right: 20px;
+                    p {
+                        font-weight: 600;
+                        margin-top: 10px;
+                    }
+
+                }
+
+            }
+
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid var(--text-color);
+            border-radius: 20px;
+            color: var(--text-color);
+            outline: none !important;
+            &:hover {
+                outline: none;
+                text-decoration: none;
+            }
+            span {
+                padding-left: 7px;
+            }
+        }
+
+        /* user password tab */
+
+        .user-password-data {
+            margin-top: 20px;
+
+            .personal__wrapper {
+                flex-direction: column;
+            }
+
+            .pass-data {
+                padding: 0 20px;
+                width: 55%;
+                flex-direction: column;
+
+                li {
+
+                    &.visible {
+                        input {
+                            border: 1px solid #ffc8c8;
+                        }
+    
+                        .error-message {
+                            opacity: 1;
+                        }
+                    }
+
+                    &.success {
+                        input {
+                            border: 1px solid #cde9cd;
+                        }
+                    }
+
+                }
+
+                input {
+                    border-radius: 10px;
+                    margin-top: 10px;
+                    margin-bottom: 0;
+                }
+
+                .error-message {
+                    margin: 10px 0;
+                    color: #992b2b;
+                    opacity: 0;
+                    height: 20px;
+                    display: block;
+                }
+
+            }
+
+            .btn-collection {
+                justify-content: end;
+                padding-top: 0;
+                padding: 20px;
+                button {
+                    margin-left: 20px;
+                }
+            }
+
+        }
+
+        /* user notifications tab */
+
+        .user-notifications {
+
+            .pass-data {
+                padding: 20px;
+                flex-direction: column;
+
+                li {
+                    margin-bottom: 80px;
+                }
+
+            }
+
+            .email-notification {
+                display: flex;
+                flex-direction: column;
+                width: 20%;
+                margin-right: 60px;
+            }
+
+            .toggles {
+                flex-direction: column;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+                }
+
+                li:last-child {
+                    margin-bottom: 0;
+                }
+
+                .notification__checkbox-info {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 10px;
+
+                    span.text-muted {
+                        font-size: 14px;
+                    }
+
+                }
+
+            }
+
+            input[type="checkbox"] {
+                position: relative;
+                width: 60px;
+                height: 30px;
+                -webkit-appearance: none;
+                appearance: none;
+                background: #D2D5DD;
+                outline: none;
+                border-radius: 2rem;
+                cursor: pointer;
+                transition: background-color .7s ease;
+            }
+            
+            input[type="checkbox"]::before {
+                content: "";
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                background: #fff;
+                position: absolute;
+                top: 0.18em;
+                left: 4px;
+                transition: 0.5s;
+            }
+            
+            input[type="checkbox"]:checked::before {
+                transform: translateX(110%);
+                background: #fff;
+            }
+            
+            input[type="checkbox"]:checked {
+                background: var(--accent-color);
+            }
+
+            .btn-collection {
+                justify-content: flex-end;
+                padding: 0 20px 20px 0;
+            }
+              
+        }
+
+        /* appearance tab */
+
+        .user-appearance {
+
+            .accent-colour {
+                padding: 0 20px;
+                display: flex;
+            }
+
+            .rounded-colour {
+                width: 30px;
+                height: 30px;
+                display: block;
+                border-radius: 50%;
+                margin-right: 17px;
+                cursor: pointer;
+            }
+
+            .rounded-colour::after {
+                display: block;
+                opacity: 0;
+                content: ' ';
+                background-image: url('http://react-admin/img/downloads/icons8-tick.svg');
+                background-size: 18px 18px;
+                height: 18px;
+                width: 18px;
+                margin: 0 auto; 
+                margin-top: 6px;
+            }
+
+            .rounded-colour.active-color::after {
+                display: block;
+                opacity: 1;
+            }
+
+            .example__menu-item {
+                background: var(--accent-color);
+                border-radius: 5px;
+                color: #fff;
+                text-decoration: none !important;
+                padding: 7px;
+                font-size: 15px;
+                line-height: 1.2em;
+                width: 210px;
+                height: 44px;
+                display: flex;
+                align-items: center;
+
+                .icon {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                }
+
+            }
+
+            .example-appearance {
+                margin-top: 60px;
+                background: var(--background-color);
+                padding: 20px;
+                border-radius: 20px;
+                margin-left: 20px   ;
+
+                div {
+                    margin-right: 70px;
+                }
+
+                .text-muted {
+                    margin-bottom: 20px;
+                    display: flex;
+                }
+            }
+
+            .emphasis {
+                p, span {
+                    font-size: 15px;
+                    line-height: 1.2em;
+                }
+
+                p {
+                    margin-top: 38px;
+                    user-select: none;
+                }
+            }
+
+            .example__emphasis {
+                background: var(--accent-color);
+                line-height: 1.2em;
+                color: #fff;
+            }
+
+            .example-theme {
+                margin-top: 40px;
+                padding-left: 20px;
+
+                .personal__wrapper {
+                    padding-left: 0;
+                }
+
+                .theme-list {
+                    li {
+                        display: flex;
+                        width: 200px;
+                        height: 200px;
+                        background: var(--background-color);
+                        border-radius: 20px;
+                        margin-right: 20px;
+                    }
+
+                    .theme-item {
+                        overflow: hidden;
+                        flex-direction: column;
+                        border: 3px solid var(--additional-color);
+                        position: relative;
+
+                        img {
+                            position: relative;
+                            top: 95px;
+                            left: 20px;
+                            border-radius: 20px;
+                            height: 200px;
+                            user-select: none;
+                        }
+
+                        p {
+                            position: relative;
+                            top: -145px;
+                            margin: 0 auto;
+                            font-size: 0.9375rem;
+                        }
+
+                        .rounded-colour {
+                            position: absolute;
+                            bottom: 20px;
+                            right: 0;
+                            display: none;
+                        }
+
+                        .rounded-colour::after {
+                            opacity: 1;
+                        }
+                    }
+                }
+
+            }
+
+            .btn-collection {
+                padding: 20px;
+                justify-content: end;
+            }
+
+        }
+    
+        
+    }
+
+}
+
+// end dashboard "settings" page

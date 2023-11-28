@@ -1,0 +1,61 @@
+{
+    "notifications": [
+        {
+            "id": "2f59a475aa10bf3639cec5f3a3b23be2",
+            "email-notification": {
+                "news": 1,
+                "tips": 0, 
+                "reminders": 0
+            },
+            "push-notification": {
+                "news": 1,
+                "privateMessage": 1,
+                "users": 1,
+                "reminders": 0
+            }
+        },
+        {
+            "id": "1020",
+            "email-notification": {
+                "news": false,
+                "tips": true, 
+                "reminders": false
+            },
+            "push-notification": {
+                "news": false,
+                "privateMessage": false,
+                "users": false,
+                "reminders": true
+            }
+        }
+    ],
+
+    "notificationsText": {
+        "news": {
+            "name": "news",
+            "title": "Новости и обновления",
+            "description": "Новости о продуктах и будущих обновлениях"
+        },
+        "reminders": {
+            "name": "reminders",
+            "title": "Напоминания",
+            "description": "Эти уведомления напомнят, если вы пропустили какое-то обновление"
+        }, 
+        "tips": {
+            "name": "tips",
+            "title": "Подсказки и обучение",
+            "description": "Подсказки по использованию dashboard"
+        },
+        "privateMessage": {
+            "name": "privateMessage",
+            "title": "Личные сообщения",
+            "description": "Уведомления о личных сообщениях"
+        },
+        "users": {
+            "name": "privateMessage",
+            "title": "Пользователи",
+            "description": "Уведомления о новых/удаленных пользователях"
+        }
+    }
+
+}

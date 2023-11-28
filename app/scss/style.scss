@@ -1,0 +1,27 @@
+// @import '../src/components/editor/editor.scss';
+
+@import "../../node_modules/uikit/src/scss/variables-theme.scss";
+@import "../../node_modules/uikit/src/scss/mixins-theme.scss";
+@import "../../node_modules/uikit/src/scss/uikit-theme.scss";
+
+@import '../src/components/app/modifiers';
+@import '../src/components/app/global';
+@import '../src/components/login/login';
+@import '../src/components/pages/main-page/main-page';
+@import '../src/components/pages/edit-page/edit-page';  
+@import '../src/components/pages/pages-page/pages-page';
+@import '../src/components/pages/media-page/_media-page';
+@import '../src/components/pages/user-page/user-page';
+@import '../src/components/pages/settings-page/_settings-page';
+
+
+:root {
+    --background-color: #000;   
+    --text-color: #fff;
+    --panel-color: #000;
+    --additional-color: #000;
+    --accent-color: #000;   
+    --additional-background: #000;
+    --additional-text: #000;
+    --shadow-nav-bar: "";
+}

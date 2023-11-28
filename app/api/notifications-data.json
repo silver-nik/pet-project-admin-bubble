@@ -1,0 +1,49 @@
+{
+
+    "notifications": [
+        {
+            "id": "2f59a475aa10bf3639cec5f3a3b23be2",
+            "news": {
+                "title": "Системное уведомление",
+                "body": "Сегодня 17.08.2023 будет производитться обновление, пожалуйста будьте готовы. Начало в 21:00",
+                "icon": "https://eralash.ru.rsz.io/sites/all/themes/eralash_v5/logo.png?width=192&height=192",
+                "click_action": "http://eralash.ru/",
+                "date": "2023-08-17",
+                "read": false
+            },
+            "privateMessage": {
+                "title": "Личное сообщение",
+                "body": "Администратор прислал вам сообщение",
+                "icon": "https://eralash.ru.rsz.io/sites/all/themes/eralash_v5/logo.png?width=192&height=192",
+                "click_action": "http://eralash.ru/",
+                "date": "2023-07-16",
+                "read": false
+            },
+            "tips": {
+                "title": "Совет дня",
+                "body": "Попробуйте изменить стиль отображения панели для лучшего визульного опыта",
+                "icon": "https://example.com/tips-icon.png",
+                "click_action": "https://example.com/tips",
+                "date": "2023-08-17",
+                "read": false
+            },
+            "reminders": {
+                "title": "Напоминание",
+                "body": "Не забудьте подготовить отчет к завтрашней встрече с клиентом",
+                "icon": "https://example.com/reminder-icon.png",
+                "click_action": "https://example.com/reminders",
+                "date": "2023-06-17",
+                "read": true
+            },
+            "users": {
+                "title": "Новый клиент",
+                "body": "На сайте зарегистрировался новый клиент",
+                "icon": "https://example.com/new-user-icon.png",
+                "click_action": "https://example.com/new-users",
+                "date": "2023-08-17",
+                "read": true
+            }
+        }
+    ]
+
+}

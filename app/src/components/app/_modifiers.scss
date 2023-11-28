@@ -1,0 +1,121 @@
+// modifier styles
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.uk-list {
+    position: relative;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+.text-muted {
+    color: #737F8B !important;
+}
+
+.me-5 {
+    margin-right: 3rem !important;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.px-0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.w-fit {
+    width: fit-content !important;
+}
+
+.font-weight-medium {
+    font-weight: 600;
+}
+
+.text-primary {
+    color: rgb(13, 110, 253);
+}
+
+.b-text {
+    font-weight: 500;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-sm {
+    width: 43px;
+    height: 43px;
+}
+
+.img-md {
+    width: 83px;
+    height: 83px;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.ms-3 {
+    margin-left: 1rem !important;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem !important;
+    line-height: 1em;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+small, .small {
+    font-size: 0.875em;
+}
+
+.__color-background {
+    background-color: var(--background-color) !important;
+}
+
+// end styles modifier

@@ -1,0 +1,119 @@
+{
+    "todaysData": {
+        "date": "2023-10-21",
+        "websiteVisits": {
+            "plan": 1000,
+            "fact": 1219
+        },
+        "purchase": {
+            "plan": 200,
+            "fact": 134
+        },
+        "registrations": {
+            "plan": 250,
+            "fact":  121
+        },
+        "callbackRequest": {
+            "plan": 20,
+            "fact": 14
+        }
+    },
+    "websiteVisits": {
+      "date": "2021-10-01",
+      "visits": 1000
+    },
+    "trafficSources": {
+        "January": {
+            "searchEngines": {
+            "google": 1000,
+            "bing": 200,
+            "yahoo": 100
+            },
+            "socialMedia": {
+            "facebook": 150,
+            "instagram": 50
+            },
+            "other": {
+                "direct": 100,
+                "referral": 50
+            }
+        },
+        "February": {
+            "searchEngines": {
+            "google": 532,
+            "bing": 119,
+            "yahoo": 15
+            },
+            "socialMedia": {
+            "facebook": 100,
+            "instagram": 34
+            },
+            "other": {
+                "direct": 124,
+                "referral": 50
+            }
+        },
+        "March": {
+            "searchEngines": {
+            "google": 50,
+            "bing": 212,
+            "yahoo": 1
+            },
+            "socialMedia": {
+            "facebook": 15,
+            "instagram": 0
+            },
+            "other": {
+                "direct": 120,
+                "referral": 50
+            }
+        }
+    },
+    "userBehavior": {
+      "date": "2021-10-01",
+      "averageTimeOnSite": 2.5,
+      "pagesPerVisit": 3.2
+    },
+    "conversions": {
+        "January": {
+            "callbackRequest": 12,
+            "subscribeMailing": 35,
+            "feedbackForm": 18,
+            "downloadApp": 8,
+            "registration": 20,
+            "purchase": 20
+        },
+        "February": {
+            "callbackRequest": 8,
+            "subscribeMailing": 40,
+            "feedbackForm": 20,
+            "downloadApp": 10,
+            "registration": 15,
+            "purchase": 60
+        },
+        "March": {
+            "callbackRequest": 14,
+            "subscribeMailing": 25,
+            "feedbackForm": 10,
+            "downloadApp": 3,
+            "registration": 40,
+            "purchase": 30
+        },
+        "April": {
+            "callbackRequest": 11,
+            "subscribeMailing": 28,
+            "feedbackForm": 12,
+            "downloadApp": 6,
+            "registration": 45,
+            "purchase": 20
+        },
+        "May": {
+            "callbackRequest": 9,
+            "subscribeMailing": 32,
+            "feedbackForm": 16,
+            "downloadApp": 7,
+            "registration": 50,
+            "purchase": 80
+        }
+    }
+}

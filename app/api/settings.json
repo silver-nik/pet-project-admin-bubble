@@ -1,0 +1,117 @@
+{
+    "users": [
+        {
+            "password": "4383023e56b91e07d9f385453e82648c8a3b6b5eef3be431b46e36602e528811",
+            "login": "admin1",
+            "role": "admin",
+            "id": "1020",
+            "name": "Никита Админов",
+            "email": "example@mail.ru",
+            "phoneNumber": "+79346576788",
+            "country": "Russia",
+            "location": "Vladivostok",
+            "status": "active",
+            "language": "ru",
+            "position": "director",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "password": "12345678910",
+            "login": "moderator",
+            "role": "moderator",
+            "id": "2040"
+        },
+        {
+            "id": "aop122re54ts",
+            "password": "12345678910",
+            "login": "login113",
+            "role": "user",
+            "name": "Иван Еремов",
+            "email": "example@mail.ru",
+            "phoneNumber": "+79346576788",
+            "country": "Russia",
+            "status": "active",
+            "language": "ru"
+        },
+        {
+            "id": "aioe2323dsxcdf",
+            "password": "12345678910",
+            "login": "logins112",
+            "role": "user",
+            "name": "Иван Егоров",
+            "email": "example@mail.ru",
+            "phoneNumber": "+79346576788",
+            "country": "China",
+            "status": "active",
+            "language": "ru"
+        },
+        {
+            "password": "$argon2id$v=19$m=65536,t=4,p=1$dDRNRmx4RERSQzhZZklRSg$WAWVzoKfyWj10Ec\/a+8VzeVw9eLWV36jYOivNcE0yh0",
+            "login": "adminadmin",
+            "sex": "male",
+            "id": "2f59a475aa10bf3639cec5f3a3b23be2",
+            "user_token": null,
+            "role": "admin",
+            "name": "Никита Admin",
+            "email": "example@mail.ru",
+            "phoneNumber": "+79343336789",
+            "country": "russia",
+            "location": "Vladivostok",
+            "status": "active",
+            "language": "ru",
+            "position": "General Director",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "accentColors": {
+                "nameColor": "Dark aspic blue",
+                "color": "#4b4cac"
+            },
+            "theme": {
+                "name": "Nightfall",
+                "id": "001",
+                "colorScheme": {
+                    "background": "#1E1E1E",
+                    "text": "#FFFFFF",
+                    "panelColor": "#2C2C2C",
+                    "additionalColour": "#444444",
+                    "additionalBackground": "#d8d8f9",
+                    "additionalText": "#FFFFFF",
+                    "shadowNavBarTop": "0px 5px 21px -5px #000000b5"
+                }
+            }
+        },
+        {
+            "password": "$argon2id$v=19$m=65536,t=4,p=1$a1N4bUdqcHVLRnFJRS5VYg$UHNS0yNrBXkrQrj4cc+t0YBdMPcULyVo+1gfiR2e+Fs",
+            "login": "nikitashvec",
+            "sex": "male",
+            "id": "02d73166c33268f57a5956c7370e8602",
+            "user_token": "02d73166c33268f57a5956c7370e8602",
+            "role": "user",
+            "name": "Никита Admin",
+            "email": "example@mail.ru",
+            "phoneNumber": "+79343336789",
+            "country": "Russia",
+            "location": "Vladivostok",
+            "status": "active",
+            "language": "ru",
+            "position": "Team Lead",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "password": "$argon2id$v=19$m=65536,t=4,p=1$cjBRMW9VWHR1aHFXNjExLg$TD7ypDWnZGc6dXNYxkuQTVZTlZAwBft5RoV4J353P8U",
+            "login": "adminmain",
+            "sex": "male",
+            "id": "3d80d6f8e8e0149e070db3beaeec82ea",
+            "user_token": "3d80d6f8e8e0149e070db3beaeec82ea",
+            "role": "user",
+            "name": "Никита Admin",
+            "email": "example@mail.ru",
+            "phoneNumber": "+79343336789",
+            "country": "Russia",
+            "location": "Vladivostok",
+            "status": "active",
+            "language": "ru",
+            "position": "Team Lead",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+    ]
+}

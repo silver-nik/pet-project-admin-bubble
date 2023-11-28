@@ -1,0 +1,194 @@
+// dashboard "edit page" page
+
+.content-editor__menu {
+  position: absolute;
+  right: 50px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+
+  .preview-icon {
+    padding: 6px;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background: var(--accent-color);
+    cursor: pointer;
+  }
+
+}
+
+.content-editor__menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  transform: translateY(100px);
+  opacity: 0;
+  align-items: center;
+  transition: all .7s ease;
+  &.content-editor__open-menu {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+// .content-btn.btn-accept:hover + ul {
+//   transform: translateY(0px);
+//   opacity: 1;
+//   transition: all .7s ease;
+// }
+
+// .content-editor__menu ul:hover {
+//   transform: translateY(0px);
+//   opacity: 1;  transition: all .1s ease;
+// }
+
+.content-btn.btn-accept {
+    z-index: 99;
+    bottom: 40px;
+    right: 30px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+// end dashboard "edit page" page
+
+// contextmenu 
+
+.contextmenu {
+    position: absolute;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 1rem;
+    animation: open 0.3s;
+    transform-origin: top left;
+  }
+  
+  .contextmenu button {
+    background: none;
+    padding: 1rem;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    color: #6c757d;
+  }
+  
+  .contextmenu button:hover {
+    background-color: #e9ecef;
+    border-radius: 0.5rem;
+  }
+  
+  .contextmenu hr {
+    border: none;
+    height: 1px;
+    background-color: #e9ecef;
+    margin-block: 0.5rem;
+  }
+  
+  .contextmenu i {
+    margin-right: 1rem;
+  }
+  
+  @keyframes open {
+    from {
+      transform: scale(0);
+    }
+  
+    to {
+      transform: scale(1);
+    }
+  }
+  
+
+// end contextmenu
+
+// link editor
+
+.tabs-menu.iframe-menu__editor div.file-name {
+    position: relative;
+}
+.tabs-menu.iframe-menu__editor div.file-name span.text-editor__link-editor {
+    padding: 0;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    z-index: 10;
+    &.link-editor__save-btn {
+        position: unset;
+        margin: 0 auto;
+    }
+}
+.link-editor__editor {
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    border-radius: 7px;
+    right: 0;
+    width: 50px;
+    background: var(--panel-color);
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: flex-end;
+    transition: all .7s ease;
+    display: flex;
+    align-items: center;
+    &.link-editor__open {
+        width: 350px;
+        input {
+            opacity: 1;
+        }
+    }
+    input {
+        margin: 0;
+        border-radius: 7px;
+        width: 200px;
+        opacity: 0;
+        height: 50px;
+        border: none;
+        border-left: 1px solid;
+        padding: .94rem .94rem;
+    }
+    input[type=text]:focus, .uk-input[type=text]:focus {
+        border-color: #fff;
+        color: var(--text-color);
+        outline: none;
+        padding: 10px;
+    }
+}
+
+// link editor

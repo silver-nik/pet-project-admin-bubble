@@ -1,0 +1,110 @@
+{
+  "colorScheme": {
+    "background": "#FFFFFF",
+    "text": "#000000",
+    "primaryButton": "#007BFF",
+    "secondaryButton": "#6C757D"
+  },
+  "fontSettings": {
+    "headerFont": "Montserrat, sans-serif",
+    "textFont": "Roboto, sans-serif"
+  },
+  "interfaceSettings": {
+    "menuSize": "large",
+    "toolbarPosition": "bottom"
+  },
+  "imagesAndIcons": {
+    "logo": "https://example.com/logo.png",
+    "iconSet": [
+      {
+        "name": "home",
+        "url": "https://example.com/home.png"
+      },
+      {
+        "name": "settings",
+        "url": "https://example.com/settings.png"
+      }
+    ]
+  },
+  "cssStyles": {
+    ".header": {
+      "font-size": "24px",
+      "color": "#007BFF"
+    },
+    ".button": {
+      "border-radius": "5px",
+      "padding": "10px 20px"
+    }
+  },
+  "accentColors": [
+      {
+          "nameColor": "Aquamarine",
+          "color": "#A5F8D3"
+      },
+      {
+          "nameColor": "Hunyadi yellow",
+          "color": "#F4AC45"
+      },
+      {
+          "nameColor": "Cambridge blue",
+          "color": "#92BFB1"
+      },
+      {
+          "nameColor": "Tropical Indigo",
+          "color": "#9381FF"
+      },
+      {
+          "nameColor": "Orchid",
+          "color": "#E07BE0"
+      },
+      {
+          "nameColor": "Green Yellow",
+          "color": "#B5F44A"
+      },
+      {
+        "nameColor": "Dark aspic blue",
+        "color": "#4b4cac"
+      }
+  ],
+  "themes": [
+    {
+      "name": "Nightfall",
+      "id": "001",
+      "colorScheme": {
+        "background": "#1E1E1E",
+        "text": "#FFFFFF",
+        "panelColor": "#2C2C2C",
+        "additionalColour": "#444444",
+        "additionalBackground": "#d8d8f9",
+        "additionalText": "#FFFFFF",
+        "shadowNavBarTop": "0px 5px 21px -5px #000000b5"
+      }
+    },
+    {
+      "name": "Eclipse",
+      "id": "002",
+      "colorScheme": {
+        "background": "#F5F7FF",
+        "text": "#FFFFFF",
+        "panelColor": "#2C2C2C",
+        "additionalColour": "#FFFFFF",
+        "additionalBackground": "#d8d8f9",
+        "additionalText": "#2c2c2c",
+        "shadowNavBarTop": "0px 5px 21px -5px #000000b5"
+      }
+    },
+    {
+      "name": "Sunrise",
+      "id": "003",
+      "colorScheme": {
+        "background": "#F5F7FF",
+        "text": "#778da2",
+        "panelColor": "#FFFFFF",
+        "additionalColour": "#FFFFFF",
+        "additionalBackground": "#d8d8f9",
+        "additionalText": "#778da2",
+        "shadowNavBarTop": "0px 5px 21px -5px #CDD1E1"
+      }
+    }
+  ]
+}

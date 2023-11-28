@@ -1,0 +1,85 @@
+// dashboard "pages" page / dashboard "users" page
+
+.page-active-icon {
+    position: absolute;
+    right: 0;
+}
+
+.page__element-create, .page__user-create {
+    .uk-input, .uk-select {
+        border-radius: 20px;
+        border: 1px solid #c2cbf1;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .uk-button, .uk-input, .uk-select {
+        width: 100%;
+    }
+
+    .form-create {
+        width: 500px;
+    }
+}
+
+.block-2 {
+    .page__element-pages {
+        width: 50%;
+    }
+    .uk-switcher {
+        width: 50%;
+        .page__element-pages {
+            width: 100%;
+        }
+    }
+
+    svg  {
+        path, polygon, circle, rect, polyline {
+            color: var(--additional-text);
+        }
+    }
+}
+
+.page__top-nav {
+    display: flex;
+    justify-content: space-between;
+    button {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        outline: inherit;
+    }
+    .uk-icon {
+        pointer-events: none;
+    }
+
+    .user-activities {
+        display: flex;
+        button, a {
+            margin-left: 10px;
+        }
+    }
+}
+
+.delete-all {
+    display: none;
+}
+
+.multiple__delete-btn {
+    margin: 0 !important;
+    margin-left: 20px !important;
+}
+
+.btn-collection {
+    li {
+        margin-right: 20px;
+    }
+
+    li:first-child {
+        margin-left: 20px;
+    }
+}
+
+// end dashboard "pages" page / dashboard "users" page

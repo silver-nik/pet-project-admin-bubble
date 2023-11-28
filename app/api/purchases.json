@@ -1,0 +1,102 @@
+{
+    "orders": [
+      {
+        "id": 1,
+        "product": "1С: Бухгалтерия 8",
+        "quantity": 3,
+        "unit_price": 5000,
+        "total_price": 15000,
+        "status": "оплачен",
+        "purchase_date": "2020-09-01",
+        "owner": "Иванов Иван"
+      },
+      {
+        "id": 2,
+        "product": "1С: Зарплата и Управление Персоналом 8",
+        "quantity": 2,
+        "unit_price": 7000,
+        "total_price": 14000,
+        "status": "в обработке",
+        "purchase_date": "2020-09-05",
+        "owner": "Петров Петр"
+      },
+      {
+        "id": 3,
+        "product": "1С: Торговля и Склад 8",
+        "quantity": 1,
+        "unit_price": 10000,
+        "total_price": 10000,
+        "status": "оплачен",
+        "purchase_date": "2020-10-10",
+        "owner": "Сидоров Сидор"
+      }
+    ],
+    "filters": {
+      "last_24_hours": [
+        {
+          "id": 1,
+          "product": "1С: Бухгалтерия 8",
+          "quantity": 3,
+          "unit_price": 5000,
+          "total_price": 15000,
+          "status": "оплачен",
+          "purchase_date": "2020-09-01",
+          "owner": "Иванов Иван"
+        },
+        {
+          "id": 2,
+          "product": "1С: Зарплата и Управление Персоналом 8",
+          "quantity": 2,
+          "unit_price": 7000,
+          "total_price": 14000,
+          "status": "в обработке",
+          "purchase_date": "2020-09-05",
+          "owner": "Петров Петр"
+        }
+      ],
+      "last_month": [
+        {
+          "id": 1,
+          "product": "1С: Бухгалтерия 8",
+          "quantity": 3,
+          "unit_price": 5000,
+          "total_price": 15000,
+          "status": "оплачен",
+          "purchase_date": "2020-09-01",
+          "owner": "Иванов Иван"
+        },
+        {
+          "id": 2,
+          "product": "1С: Зарплата и Управление Персоналом 8",
+          "quantity": 2,
+          "unit_price": 7000,
+          "total_price": 14000,
+          "status": "в обработке",
+          "purchase_date": "2020-09-05",
+          "owner": "Петров Петр"
+        },
+        {
+          "id": 3,
+          "product": "1С: Торговля и Склад 8",
+          "quantity": 1,
+          "unit_price": 10000,
+          "total_price": 10000,
+          "status": "оплачен",
+          "purchase_date": "2020-10-10",
+          "owner": "Сидоров Сидор"
+        }
+      ],
+      "selected_month": [
+        {
+          "id": 3,
+          "product": "1С: Торговля и Склад 8",
+          "quantity": 1,
+          "unit_price": 10000,
+          "total_price": 10000,
+          "status": "оплачен",
+          "purchase_date": "2020-10-10",
+          "owner": "Сидоров Сидор"
+        }
+      ]
+    }
+  }
