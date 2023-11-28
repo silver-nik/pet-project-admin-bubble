@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const webpack = require('webpack-stream');
 const sass = require('gulp-sass')(require('sass'));
 
-const dist = "  " // путь до шаблона pet-project-1C
+const dist = "/Users/User/Desktop/OpenServer/domains/***/admin" // путь до шаблона pet-project-1C
 
 gulp.task('copy-html', () => {
     return gulp.src('./app/src/index.html')
